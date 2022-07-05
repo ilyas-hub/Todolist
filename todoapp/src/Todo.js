@@ -38,8 +38,10 @@ setItems(updateditems);
        <div className='main-div'>
          <div className='child-div'>
          <figure>
+           
+           <figcaption>Make Your Todolist</figcaption>
+
            {/* <img src='' alt='todoimage'/> */}
-           <figcaption>Add your ist Here</figcaption>
           <img src={image}></img>
          </figure>
 
@@ -56,7 +58,7 @@ setItems(updateditems);
               return(
               <div className='eachItem' key={ind}>
               <h3>{elem}</h3>
-              <i className='fa fa-trash ' title='Delete-Item' onClick = { () => deleteItem(ind)}></i>
+              <i  class="fa fa-trash-alt" aria-hidden="false" title='Delete-Item' onClick = { () => deleteItem(ind)}></i>
               
               
             </div>

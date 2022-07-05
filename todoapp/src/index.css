@@ -17,25 +17,29 @@ html {
   background: #060822;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
+ 
 }
-
+ /* align-items: center; */
 .child-div {
   text-align: center;
-  margin-top: 12rem;
+  margin-top: 3rem;
 }
 
 .child-div figure img {
   width: 10rem;
   height: 8rem;
+  margin-bottom: 5rem;
+  border-radius: 50%;
 }
 
 .child-div figure figcaption {
-  color: #fff;
+  color: rgb(244, 248, 17);
   font-size: 2.2rem;
   padding-top: 2rem;
   text-transform: capitalize;
+  margin-bottom: 2rem;
 }
+
 
 input {
   /* display: block; */
@@ -85,12 +89,11 @@ input:focus {
   cursor: pointer;
   pointer-events: auto;
   z-index: 10;
-  background-color: #fff;
   background-image: none;
   color: #666;
   -webkit-transition: color 0.15s linear;
   transition: color 0.15s linear;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 .fa:hover {
   color: rgb(47, 214, 122);
@@ -98,7 +101,8 @@ input:focus {
 
 .fa-plus:before {
   content: "\f067";
-  font-size: 1.5rem;
+  font-size: 2rem;
+  
 }
 
 .showItems {
